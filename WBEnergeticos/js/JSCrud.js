@@ -264,6 +264,7 @@ function initEventos() {
 
 }
 console.log("hola eufeem");
+console.log("jisus es perra ");
 function initDataTable() {
     $.fn.dataTable.ext.errMode = 'none';
     var responsiveHelper_datatable_fixed_column = undefined;
