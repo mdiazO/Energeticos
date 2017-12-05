@@ -1,0 +1,15 @@
+C:\Users\Mario\Documents\Ejmplo\Energeticos.Framework\bin\Debug\Energeticos.Framework.dll
+C:\Users\Mario\Documents\Ejmplo\Energeticos.Framework\bin\Debug\Energeticos.Framework.pdb
+C:\Users\Mario\Documents\Ejmplo\Energeticos.Framework\obj\Debug\Energeticos.Framework.dll
+C:\Users\Mario\Documents\Ejmplo\Energeticos.Framework\obj\Debug\Energeticos.Framework.pdb
+C:\Users\Mario\Documents\Ejmplo\Energeticos.Framework\obj\Debug\Energeticos.Framework.csprojResolveAssemblyReference.cache
+C:\inetpub\wwwroot\monitor-energeticos\Energeticos\Energeticos.Framework\bin\Debug\Energeticos.Framework.dll
+C:\inetpub\wwwroot\monitor-energeticos\Energeticos\Energeticos.Framework\bin\Debug\Energeticos.Framework.pdb
+C:\inetpub\wwwroot\monitor-energeticos\Energeticos\Energeticos.Framework\obj\Debug\Energeticos.Framework.csprojResolveAssemblyReference.cache
+C:\inetpub\wwwroot\monitor-energeticos\Energeticos\Energeticos.Framework\obj\Debug\Energeticos.Framework.dll
+C:\inetpub\wwwroot\monitor-energeticos\Energeticos\Energeticos.Framework\obj\Debug\Energeticos.Framework.pdb
+C:\Users\carlos.garcia\Desktop\monitor-energeticos\Energeticos\Energeticos.Framework\bin\Debug\Energeticos.Framework.dll
+C:\Users\carlos.garcia\Desktop\monitor-energeticos\Energeticos\Energeticos.Framework\bin\Debug\Energeticos.Framework.pdb
+C:\Users\carlos.garcia\Desktop\monitor-energeticos\Energeticos\Energeticos.Framework\obj\Debug\Energeticos.Framework.dll
+C:\Users\carlos.garcia\Desktop\monitor-energeticos\Energeticos\Energeticos.Framework\obj\Debug\Energeticos.Framework.pdb
+C:\Users\carlos.garcia\Desktop\monitor-energeticos\Energeticos\Energeticos.Framework\obj\Debug\Energeticos.Framework.csprojResolveAssemblyReference.cache

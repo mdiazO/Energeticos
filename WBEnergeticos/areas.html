@@ -1,0 +1,97 @@
+﻿<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="js/plugin/jquery-touch/jquery.ui.touch-punch.min.js"></script>
+<style>
+    .table > tbody > tr > td {
+        padding: 8px 10px;
+        height: 160px !important;
+        width: 199px !important;
+    }
+</style>
+<div class="row">
+    <!-- Section Inicio -->
+    <section id="widget-grid">
+        <article class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="jarviswidget jarviswidget-color-white" data-widget-togglebutton="false" data-widget-deletebutton="false" data-widget-editbutton="false" data-widget-fullscreenbutton="true" data-widget-sortable="false" role="widget" data-widget-attstyle="jarviswidget-color-white">
+                <!-- TITULO -->
+                <header role="heading">
+                    <span class="widget-icon"> <i class="fa fa-building"></i></span> <h2><b>Diseño de Áreas Monitoredas</b></h2>
+                    <span class="jarviswidget-loader" style="display: none;"><i class="fa fa-refresh fa-spin"></i></span>
+                </header>
+                <!-- / TITULO -->
+                <!-- CUERPO -->
+                <div role="content">
+                    <form id="form_creacion" >
+                        <p>Arrasta los elementos para crear la estructura.</p>
+                        <br />
+
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                <a class="btn btn-success pull-right" id="guardar"><i class="fa fa-plus"></i> Guardar</a>
+                                <a class="btn btn-primary pull-right" id="agregarPiso" style="margin-right:10px"><i class="fa fa-plus"></i> Agregar Piso</a> &nbsp;
+                                <a class="btn btn-danger pull-right" id="eliminarPiso" style="margin-right:10px"><i class="fa fa-trash"></i> Eliminar Piso</a> &nbsp;
+                            </div>
+                        </div> <br />
+
+                        <!--  Estructura -->
+                        <div id="estructura">
+                            <div class="row" id="e1">
+                                <h3 class="text-center"><b>Estructura Piso 1</b></h3> <br />
+                                <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                                    <h4><b><i class="fa fa-cubes"></i> Elementos</b></h4><hr />
+                                    <img class="draggable ui-draggable img-reponsive" id="recamaraH" src="img/elementos/recamaraH.png" name="recamaraH" width="170" /><hr />
+                                    <img class="draggable ui-draggable img-reponsive" id="sala" src="img/elementos/sala.png" width="170" name="sala" /><hr />
+                                    <img class="draggable ui-draggable img-reponsive" id="recamaraM" src="img/elementos/recamaraM.png" width="170" name="recamaraM" /><hr />
+                                    <img class="draggable ui-draggable img-reponsive" id="entretenimiento" src="img/elementos/entretenimiento.png" width="170" name="entretenimiento" /><hr />
+                                </div>
+
+                                <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
+                                    <!-- TABLA SMART ADMIN -->
+                                    <div class="table-responsive">
+                                        <table class="table table-bordered" id="tabla">
+                                            <tbody>
+                                                <tr>
+                                                    <td class="ui-sortable"></td>
+                                                    <td class="ui-sortable"></td>
+                                                    <td class="ui-sortable"></td>
+                                                    <td class="ui-sortable"></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="ui-sortable"></td>
+                                                    <td class="ui-sortable"></td>
+                                                    <td class="ui-sortable"></td>
+                                                    <td class="ui-sortable"></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="ui-sortable"></td>
+                                                    <td class="ui-sortable"></td>
+                                                    <td class="ui-sortable"></td>
+                                                    <td class="ui-sortable"></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="ui-sortable"></td>
+                                                    <td class="ui-sortable"></td>
+                                                    <td class="ui-sortable"></td>
+                                                    <td class="ui-sortable"></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+
+                                    </div>
+                                    <!-- / TABLA SMART ADMIN -->
+                                </div>
+                            </div> <br />
+
+                        </div>
+                        <!-- / Estructura -->
+                    </form>
+                </div>
+                <!-- / CUERPO -->
+            </div>
+        </article>
+
+    </section>
+    <!-- / Section Inicio -->
+</div>
+
+<script src="js/modulos/areas.js"></script>
